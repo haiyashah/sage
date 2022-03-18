@@ -8,8 +8,8 @@ separate.
 
 Everything here must support Python 2.6, 2.7, and 3.3+. Use tox
 (https://testrun.org/tox/latest/) to automatically run the tests with
-all relevant Python versions. Tests are written as unittest, not as
-doctests, because the library is not meant to be used interactively.
+all relevant Python versions. Tests are written as unit tests, not as
+doc tests because the library is not meant to be used interactively.
 Note that the library comes with a setup.py file so that tox can test
 it, but it is not meant to be installed to SAGE_LOCAL.
 
